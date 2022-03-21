@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+    <title>Portfoil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+  
+<script src="https://kit.fontawesome.com/af529d8a47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+        
+    <!--navigation bar start -->
+    <button class="mobile-nav" aria-controls="primary-navigation" ><span class="sr-only">Menu</span> </button>
+    <nav>
+        <div class="logo"><a href="#"><i class="fa-brands fa-wolf-pack-battalion"></i></a></div>
+        <div class="menu"  data-visible="false">
+            <ul id="primary-navigation" class="primary-navigation" data-visible="false" >
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">Skills</a></li>
+              <li><a href="#project">Project</a></li>
+              <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+     <!--navigation bar end  -->
+
+      <!--home section start -->
+
+      <div class="home" id="home">
+        
+        
+         <div class="text-1">
+            
+            <i class="fa-solid fa-terminal"></i>
+            
+           <span>Hey! I am Oussama.<br>
+               and I'm a developer</span> 
+             
+            <button class="hello"><a href="#contact"> Say hello </a></button>
+        </div> 
+        
+    </div> 
+      <!--home section end --> 
+      
+      
+
+      <!--About me section start --> 
+ 
+     <hr><h2>Skills</h2>
+<div class="about-me" id="about-me">
+        
+             <img src="wp1.jpg" alt="image">
+             <div class="holder holder-1">
+                 <h3>Web developer</h3>
+                <div class="content"><ul>
+                    <li>HTML/CSS</li>
+                    <li>PHP/SQL</li>
+                 </ul></div>
+             </div>
+             <div class="holder holder-2">
+                <h3>DATA</h3>
+                <div class="content"><ul>
+                    <li>Oracle</li>
+                    <li>MySQL</li>
+                </ul></div>
+             </div>
+             <div class="holder holder-3">
+                <h3>OTHERS</h3>
+                <div class="content"><ul>
+                    <li>JAVA</li>
+                    <li>C++</li>
+                </ul></div>
+             </div>
+             <button class="hello" id="cv"> <a href="https://drive.google.com/file/d/1fQVxpxsAUCv8Z3gXuY-fX2X1H1zRuV-V/view?usp=sharing" target="-blank" >Telecharger mon cv</a>
+             </button>
+              
+               
+     </div>
+      <!--about me end-->
+        <!--project section start-->
+<hr> <h2>Project</h2>
+        <div class="project" id="project">
+           <div class="project-item first">
+               <h2>Site de vente en ligne</h2>
+               <p>Ce site proposera aux clinets différents articles répatis catégories. Chaque artocle devra posséder sa propre fiche descrition.En navigant sur le site,les articles seront pr"sente sous forme de liste,et en cliquant sur l'un d'eux on porre ansuite construlter sin panier, éventuellement y supprimer ou modifier les quantités de certins articles,puis le valider pour angager la commande.</p>
+               
+                   
+               
+           </div>
+           <div class="project-item second">
+               <h2>Gestion d’une BDD</h2>
+               <p>creation des BDD repartie dans une different machines </p>
+             
+           </div>
+           <div class="project-item third">
+            <h2>Web Server</h2>
+            
+           </div>
+           <div class="project-item four">
+            <h2>Gestion d’une BDD</h2>
+           
+           </div>
+           
+        </div>
+        <!--project section end-->
+<!--contact section start-->   
+   <!--Contact section start-->
+    
+   <hr> 
+   <h2>Contact</h2>
+   <!-- contact form start-->
+   <div class="contact" id="contact">
+       <div class="contact email">
+
+      <form action="https://formsubmit.co/housni1oussama@gmail.com" method="POST">
+     <div class="row">
+        <div class="input-group">
+            <input type="text " name="name" id="name" required>
+            <label for="name">Nom&Prenom</label>
+        </div>
+        <div class="input-group">
+            <input type="email" name="email" id="email1" required>
+            <label for="email1">exemple@gmail.com</label>
+        </div>
+     </div>
+       <div class="input-group">
+            <input type="text" name="_subject" id="subject" required>
+           <label for="subject">Sujet</label>
+       </div>
+
+       <div class="input-group">
+            <textarea  id="Message" name="message" rows="8" required></textarea>
+            <label for="Message">Message</label>
+       </div>
+         <button type="submit">Send</button>
+      </form>
+       
+
+        </div>
+   </div>
+
+
+
+        <!--
+            footer start
+        -->
+        <div class="footer">
+           <p> <i class="fa-solid fa-copyright"></i> copyright all right reserved</p>
+        </div>
+        
+  
+
+<script  src="script.js">
+   </script>
+       
+</body>
+
+</html>
